@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Список сотрудников:</h1>
+    <ul>
+      <% ls = XQuery('for $emp in collaborators return $emp/fullname'); for
+      (var i = 0; i < ls.length; i++) { %>
+      <li><%= ls[i] %></li>
+      <% } %>
+    </ul>
+  </body>
+</html>
