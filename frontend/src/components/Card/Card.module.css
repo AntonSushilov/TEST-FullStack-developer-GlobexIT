@@ -1,0 +1,45 @@
+.card {
+  border-radius: 16px;
+  padding: 24px;
+  width: 357px;
+  height: 314px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  color: #262c40;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.content__row {
+  display: flex;
+  flex-direction: row;
+  column-gap: 14px;
+  height: 24px;
+}
+
+.content__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.content_text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #8189a3;
+  display: flex;
+  align-items: center;
+}

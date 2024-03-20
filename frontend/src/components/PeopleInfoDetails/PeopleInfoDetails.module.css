@@ -1,0 +1,40 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  width: 100%;
+}
+
+.section__info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+}
+
+.section__row {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+}
+
+.row__title {
+  min-width: 136px;
+  flex-shrink: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  color: #262c40;
+}
+
+.row__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #8189a3;
+}
+
+.section__description{
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
